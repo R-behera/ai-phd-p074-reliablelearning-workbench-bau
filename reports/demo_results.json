@@ -14,6 +14,46 @@
   "next_step": "Replace seed records with a public decision-support dataset and document subgroup behavior.",
   "professor": "David Bau",
   "project_family": "ml",
+  "proposed_method": {
+    "algorithm_id": "P074-Bau-DeepLearningInterpretability",
+    "algorithm_name": "BauTriangulatedDeepLearningInterpretabilityProbeMatrix",
+    "core_mechanism": "prioritizes decision-support failures with calibration and subgroup reliability risk",
+    "decision_rule": "Rank seed cases by ml-specific priority score with Bau-aligned focus term 'Deep learning interpretability'.",
+    "mean_priority_score": 0.3098,
+    "project_family": "ml",
+    "top_cases": [
+      {
+        "action": "inspect subgroup/calibration failure",
+        "case_id": "M3",
+        "priority_score": 0.7743,
+        "signals": {
+          "calibration_gap": 0.71,
+          "error": true,
+          "group": "group_b"
+        }
+      },
+      {
+        "action": "inspect subgroup/calibration failure",
+        "case_id": "M4",
+        "priority_score": 0.7314,
+        "signals": {
+          "calibration_gap": 0.58,
+          "error": true,
+          "group": "group_b"
+        }
+      },
+      {
+        "action": "retain as model-card control row",
+        "case_id": "M5",
+        "priority_score": 0.1155,
+        "signals": {
+          "calibration_gap": 0.35,
+          "error": false,
+          "group": "group_c"
+        }
+      }
+    ]
+  },
   "research_area": "Deep learning interpretability, generative models",
   "university": "Northeastern University",
   "value_add": "auditable ML model-card metric pack"
