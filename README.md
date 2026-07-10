@@ -1,10 +1,21 @@
-# ReliableLearning Workbench: Deep learning interpretability for Bau-Aligned Research
+# FailureAware Decision Lab: Deep learning interpretability for Bau-Aligned Research
 
-A research-grade AI/ML PhD preparation project aligned with **David Bau** at **Northeastern University**.
+A professor-outreach research proposal aligned with **David Bau** at **Northeastern University**.
+
+## For Professor Outreach
+
+This repo is intended to support an honest outreach email. It contains a concrete proposal for what value you can add, but it does **not** yet contain completed experiments or results.
+
+Start here:
+
+- `outreach/value_add_packet.md` - professor-specific contribution plan.
+- `outreach/email_draft.md` - short mail draft you can personalize before sending.
+- `docs/one_page_project_plan.md` - one-page project summary.
+- `PROJECT_STATUS.md` - clear statement of what exists and what does not exist yet.
 
 ## Research Question
 
-Can an auditable ML workflow expose provenance, uncertainty, and failure modes for real-world decision support?
+How can a focused, reproducible artifact around **Deep learning interpretability** create useful research infrastructure for a lab working on **Deep learning interpretability, generative models**?
 
 ## Advisor Fit
 
@@ -15,16 +26,14 @@ Can an auditable ML workflow expose provenance, uncertainty, and failure modes f
 - **Representative paper:** Network Dissection: Quantifying Interpretability of Deep Visual Representations; 2017; CVPR
 - **Scholar link:** https://scholar.google.com/scholar?q=Network+Dissection%3A+Quantifying+Interpretability+of+Deep+Visual+Representations
 
-## Research-Grade Deliverable
+## Proposed Research-Grade Deliverable
 
-This repo is scaffolded to become a serious research artifact, not a demo-only project. The finished version should include:
+Build **an auditable ML decision-support pipeline with provenance, uncertainty, and failure analysis** with:
 
-- Reproducible dataset pipeline with raw-data provenance.
-- Strong baselines and locked experiment configs.
-- Original method or evaluation contribution.
-- Ablation studies that isolate what changed.
-- Failure analysis with concrete examples.
-- Paper-style report, limitations, and reproducibility notes.
+- Dataset card and validation checks.
+- Baseline and proposed model comparison.
+- Calibration, subgroup, and shift analysis.
+- Auditor-facing report with limitations and next experiments.
 
 ## Quick Start
 
@@ -37,15 +46,15 @@ python -m pytest
 
 ## Repository Map
 
+- `outreach/value_add_packet.md` - value-add plan for this professor.
+- `outreach/email_draft.md` - email draft; personalize before sending.
 - `docs/research_brief.md` - project hypothesis, novelty, methods, and evaluation plan.
-- `docs/experiment_plan.md` - concrete baseline, ablation, and reporting protocol.
+- `docs/one_page_project_plan.md` - one-page project summary.
+- `docs/experiment_plan.md` - baseline, ablation, and reporting protocol.
 - `configs/baseline.yaml` - first experiment configuration placeholder.
-- `src/` - implementation package placeholder.
-- `tests/` - smoke and metric tests placeholder.
-- `reports/` - figures, tables, and final writeup.
 - `reproducibility/commands.md` - exact commands and environment notes.
 - `data/source_programs.csv` - original CSV for traceability.
 
 ## Status
 
-Scaffolded from the Fall 2027 AI PhD programs CSV. Before external use, re-verify professor interests, application dates, and paper/citation metadata.
+Proposal scaffold only. Before external use, verify the professor's current lab page and make a selected repo public or shareable.
