@@ -1,0 +1,13 @@
+{
+  "professor": "David Bau",
+  "university": "Northeastern University",
+  "program": "Khoury Computer Science PhD",
+  "research_area": "Deep learning interpretability, generative models",
+  "representative_paper": "Network Dissection: Quantifying Interpretability of Deep Visual Representations; 2017; CVPR",
+  "paper_link": "https://scholar.google.com/scholar?q=Network+Dissection%3A+Quantifying+Interpretability+of+Deep+Visual+Representations",
+  "project_family": "ml",
+  "focus": "Deep learning interpretability",
+  "value_add_artifact": "auditable ML model-card metric pack",
+  "next_step": "Replace seed records with a public decision-support dataset and document subgroup behavior.",
+  "generated_for": "professor outreach value-add starter"
+}
